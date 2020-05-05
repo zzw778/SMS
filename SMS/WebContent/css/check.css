@@ -1,0 +1,44 @@
+@charset "UTF-8";
+th{
+	width:110px;
+	height:30px;
+	font-size: 15px;
+	background-color: #94defe;
+}
+
+tr td{
+	text-align: center;
+	font-size: 15px;
+	padding:10px 0;
+}
+
+#btn1{
+	text-align: center;
+	height:50px;
+	width:100%;
+}
+
+#btn{
+	height:40px;
+	width:150px;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin:10px 30px;
+	margin-top:180px;
+	background-color: #00ffff;
+	border-radius: 10px; 
+	border-style: none;
+	cursor: pointer;
+}
+
+#btn:link,#btn:visite{
+	
+	font-weight: bold;
+	padding-left:50px;
+	
+	text-align: center;
+}
+
+#btn:hover,#btn:active{
+	color:darkgray;
+}

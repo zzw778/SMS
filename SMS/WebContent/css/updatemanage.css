@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color: snow;
+}
+
+#div{
+	
+	width:40%;
+	height:500px;
+	margin:100px auto;
+	background-color: #e9e9e9;
+	border-radius: 20px;
+}
+
+#dv{
+	
+	width:40%;
+	height:550px;
+	margin:100px auto;
+	background-color: #e9e9e9;
+	border-radius: 20px;
+}
+
+h2{
+	float:left;
+	padding-top:18px;
+	padding-bottom:15px;
+	padding-left:20px;
+}
+
+#div1{
+	height:15%;
+	width:100%;
+	background-color: #1ddc48;
+	border-radius: 20px 20px 0 0;
+}
+
+#div2{
+	height:70%;
+	width:100%;
+	
+	margin-left:100px;
+}
+
+#div2 input{
+	height:30px;
+	width:300px;
+	border-radius: 2px;
+	border-style: none; 
+}
+table{
+	padding-top:20px;
+	padding-left:20px;
+}
+
+td{
+	padding:10px 5px;
+	font-size:20px;
+}
+
+td:first-child{
+	text-align: right;
+	font-weight: bold;
+}
+
+#div3{
+	height:10%;
+	width:100%;
+	margin-left:150px;
+}
+
+#div3 button{
+	
+	height:30px;
+	width:80px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #9542f0;
+	 border-radius: 10px; 
+	border-style: none;
+	color:white;
+	margin-left:50px;
+	margin-top:20px;
+}
+
+#div3 button[id="btn"]{
+	height:40px;
+	width:85px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #9542f0;
+	 border-radius: 10px; 
+	border-style: none;
+	color:white;
+	margin-left:120px;
+	margin-top:20px;
+}
+
+
+#div3 button:hover,#div3 button:active{
+	color:darkgray;
+}
